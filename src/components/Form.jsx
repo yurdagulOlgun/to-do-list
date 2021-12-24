@@ -1,10 +1,8 @@
 import React from 'react';
-// import {useState} from "react"
+
 function Form(props) {
   const { formSubmit,onChangeInput} = props;
-  const {value } =props;
-    // const [clear,setClear]=useState("")
-  
+  const {value } =props;  
 
   return (
     <>
@@ -23,5 +21,4 @@ function Form(props) {
     </>
   );
 }
-
 export default Form;

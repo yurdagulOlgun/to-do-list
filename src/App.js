@@ -11,7 +11,6 @@ function App() {
   function onChangeInput(event) {
     setValue(event.target.value);
   }
-  
   function formSubmit(event) {
     event.preventDefault();
     
@@ -30,8 +29,6 @@ function App() {
       setValue("")
     }
   }
-
-
   function handleToggle(item){
     setTodos(
       todos.map((newItem)=>
@@ -71,5 +68,4 @@ function App() {
     </>
   );
 }
-
 export default App;
